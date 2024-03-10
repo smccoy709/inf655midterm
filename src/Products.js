@@ -35,7 +35,7 @@ export const Products = [
     },
     {
         id: 4,
-        productName: 'GoldenEye 2007',
+        productName: 'GoldenEye 007',
         description: 'GoldenEye 007 for the Nintendo 64 is the classic first-person shooter based on the James Bond film featuring stealth action, varied objectives, and multiplayer deathmatch.',
         price: 65.00,
         productImage: goldeneye,
