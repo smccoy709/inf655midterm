@@ -1,0 +1,165 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cartItem {
+    width: 700px;
+    height: 250px;
+    display: flex;
+  
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+  }
+  
+  .cartItem img {
+    width: 200px;
+  }
+  
+  .cartItem .description {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 25px;
+  }
+
+  .cartItemsHeading {
+    text-align: center;
+  }
+  
+  .countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .confirmationButton button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .checkout {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    float: left;
+  }
+
+  .checkoutFormButton {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    float: right;
+  }
+
+  .checkoutForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subtotal {
+    text-align: center;
+  }
+
+  .firstNameLabel {
+    margin-left: 150px;
+  }
+
+  .firstNameTextbox {
+    margin-left: 150px;
+  }
+
+  .lastNameLabel {
+    margin-left: 193px;
+  }
+
+  .lastNameTextbox {
+    margin-left: 100px;
+  }
+
+  .addressLabel {
+    margin-left: 150px;
+  }
+
+  .address1 {
+    margin-left:  150px;
+    width: 433px;
+  }
+
+  .address1 {
+    margin-left:  150px;
+    width: 433px;
+  }
+
+  .address2 {
+    width: 433px;
+    margin-top: 5px;
+    margin-left:  150px;
+  }
+
+  .address3 {
+    width: 433px;
+    margin-top: 5px;
+    margin-left:  150px;
+  }
+
+  .cityLabel {
+    margin-left: 150px;
+  }
+
+  .cityTextbox {
+    margin-left: 150px;
+  }
+
+  .stateLabel {
+    margin-left: 190px;
+  }
+
+  .stateTextbox {
+    margin-left: 50px;
+  }
+
+  .zipLabel {
+    margin-left: 63px;
+  }
+
+  .zipTextbox {
+    margin-left: 50px;
+    width: 120px;
+  }
+
+  .phoneLabel {
+    margin-left: 150px;
+  }
+
+  .phoneTextbox {
+    margin-left: 150px;
+  }
+
+  .emailLabel {
+    margin-left: 111px;
+  }
+
+  .emailTextbox {
+    margin-left: 50px;
+    width: 218px;
+  }
