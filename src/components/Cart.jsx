@@ -15,6 +15,7 @@ export const Cart = () => {
             <div>
                 <h1>Your Shipping Information</h1>
             </div>
+             {/* The shipping form a user fills out */}
             <form className='checkoutForm'>
                 <span><label className='firstNameLabel'>First Name</label><label className='lastNameLabel'>Last Name</label></span>
                 <span><input type='text' id='firstName' className='firstNameTextbox' onInvalid={e => e.target.setCustomValidity('Please enter your first name!')}
@@ -95,6 +96,7 @@ export const Cart = () => {
                 <h1>Your Cart Items</h1>
             </div>
             <div className='cart'>
+                {/* Outputs the products selected that are in the cart */}
                 {Products.map((product) => {
                     if (cartItems[product.id] !== 0) {
                         return <CartItem data={product} />
@@ -102,6 +104,8 @@ export const Cart = () => {
                 })}
             </div>
 
+            {/* If the total amount is greater than 0, display the subtotal and the checkout and continue shopping buttons.*/} .
+            {/* If the total amount is less than 0, display the shopping cart is empty message  */}
             {totalAmount > 0 ? (
 
                 <div>
