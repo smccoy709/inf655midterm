@@ -11,8 +11,8 @@ import ttyd from './assets/products/ttyd.png';
 import wrestlemania18 from './assets/products/wrestlemania18.png';
 import wrestlemania19 from './assets/products/wrestlemania19.png';
 
-{/* Creating an array of all the products within the store and assigning them an id, a name, a description, a price, and an image
-that was imported above and are stored within the assets/products directories */}
+/* Creating an array of all the products within the store and assigning them an id, a name, a description, a price, and an image
+that was imported above and are stored within the assets/products directories */
 export const Products = [
     {
         id: 1,
