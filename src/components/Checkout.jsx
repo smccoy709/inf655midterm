@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { ShoppingCart } from 'phosphor-react';
 import "./navbar.css";
 
 export const Checkout = () => {
    const [num, setNum] = useState();
  
-   {/* Setting the randomNumberInRange variable to contain a min and max number that will randomly generate */}
    const randomNumberInRange = (min, max) => {
        return Math.floor(Math.random()
            * (max - min + 1)) + min;
    };
 
-   {/* Setting the minimum number to randomly generate as 10000 and the maximum as 99999 */}
    const handleClick = () => {
        setNum(randomNumberInRange(10000, 99999));
    };
@@ -35,7 +31,7 @@ export const Checkout = () => {
             </button>
             </div>
             <div>
-               <p>Click <a href='/'>here</a> to go back the homepage.</p>
+               <p>Click <a href='/'>here</a> to go back to the main shopping page!</p>
             </div>
         </div>
         </div>

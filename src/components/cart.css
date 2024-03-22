@@ -9,7 +9,6 @@
     width: 700px;
     height: 250px;
     display: flex;
-  
     align-items: center;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
@@ -28,6 +27,7 @@
 
   .cartItemsHeading {
     text-align: center;
+    margin-top: 25px;
   }
   
   .countHandler input {

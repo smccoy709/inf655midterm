@@ -104,8 +104,8 @@ export const Cart = () => {
                 })}
             </div>
 
-            {/* If the total amount is greater than 0, display the subtotal and the checkout and continue shopping buttons.*/} .
-            {/* If the total amount is less than 0, display the shopping cart is empty message  */}
+            {/* If the total amount is greater than 0, display the subtotal and the checkout and continue shopping buttons.
+            If the total amount is less than 0, display the shopping cart is empty message */}
             {totalAmount > 0 ? (
 
                 <div>
