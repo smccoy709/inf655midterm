@@ -2,9 +2,6 @@ import React, { useContext } from 'react'
 import { ShopContext } from '../../context/ShopContext';
 
 export const Product = (props) => {
-    {/* Getting the products and putting them as props */}
-    {/* Getting the addToCart and cartItems variables from the ShopContext component */}
-    {/* Setting the cartItemCount to the amount of times the "Add to Cart" button was clicked by the product's id */}
     const { id, productName, description, price, productImage } = props.data;
     const { addToCart, cartItems } = useContext(ShopContext);
     const cartItemCount = cartItems[id];
@@ -25,8 +22,8 @@ export const Product = (props) => {
                     ${price}
                 </p>
             </div>
-            {/* Displaying the "Add to Cart" button and when clicked, the item goes into the shopping cart */}
-            {/* Once the button is clicked, it displays the quantity in the cart within parentheses (for example, Add to Cart (2)) */}
+            {/* Displaying the "Add to Cart" button and when clicked, the item goes into the shopping cart
+            Once the button is clicked, it displays the quantity in the cart within parentheses (for example, Add to Cart (2)) */}
             <button className='addToCartBttn' onClick={() => addToCart(id)}>
                 Add to Cart {cartItemCount > 0 && <> ({cartItemCount})</>}
             </button>
